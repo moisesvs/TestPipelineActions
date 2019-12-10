@@ -1,0 +1,19 @@
+name: CI_Android
+
+on:
+  push:
+    branches:
+    - master
+    - release/*
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: techulus/push-github-action@v0.0.2
+    - name: Send Push Notification
+      run: echo Notifications sent
+        
+
