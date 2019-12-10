@@ -12,4 +12,8 @@ jobs:
 
     steps:
     - name: "Run test suite"
-      run: ls
+      uses: msfjarvis/setup-android@1.0
+      with:
+        entrypoint: ./gradlew
+        args: assembleDebug
+
