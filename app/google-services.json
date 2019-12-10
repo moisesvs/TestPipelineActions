@@ -1,0 +1,263 @@
+{
+  "project_info": {
+    "project_number": "96472897739",
+    "firebase_url": "https://channelsfcm.firebaseio.com",
+    "project_id": "channelsfcm",
+    "storage_bucket": "channelsfcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96472897739:android:d39be30ed3a0c82b",
+        "android_client_info": {
+          "package_name": "codingwithmitch.com.firebasedirectmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLPG7vGjtD5hiCAsEY6M8V6qwIpYgSJHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "96472897739-mi4qc619d5nd7k48avs2r11gcritibpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bbva.cellsApp.ENTERPRISE"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96472897739:android:cb5cf08b9942cd31",
+        "android_client_info": {
+          "package_name": "com.bbva.glomocells"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLPG7vGjtD5hiCAsEY6M8V6qwIpYgSJHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "96472897739-mi4qc619d5nd7k48avs2r11gcritibpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bbva.cellsApp.ENTERPRISE"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96472897739:android:425928d2cfffd197",
+        "android_client_info": {
+          "package_name": "com.bbva.hybriddemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLPG7vGjtD5hiCAsEY6M8V6qwIpYgSJHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "96472897739-mi4qc619d5nd7k48avs2r11gcritibpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bbva.cellsApp.ENTERPRISE"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96472897739:android:0191243066e2897c8ce34e",
+        "android_client_info": {
+          "package_name": "com.example.testpipenlinegithub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLPG7vGjtD5hiCAsEY6M8V6qwIpYgSJHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "96472897739-mi4qc619d5nd7k48avs2r11gcritibpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bbva.cellsApp.ENTERPRISE"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96472897739:android:dc0b341c3de81bac",
+        "android_client_info": {
+          "package_name": "com.moises.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLPG7vGjtD5hiCAsEY6M8V6qwIpYgSJHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "96472897739-mi4qc619d5nd7k48avs2r11gcritibpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bbva.cellsApp.ENTERPRISE"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96472897739:android:439a7c50973b03248ce34e",
+        "android_client_info": {
+          "package_name": "com.moises.firebaseab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLPG7vGjtD5hiCAsEY6M8V6qwIpYgSJHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "96472897739-mi4qc619d5nd7k48avs2r11gcritibpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bbva.cellsApp.ENTERPRISE"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96472897739:android:85467a9cb34686c3",
+        "android_client_info": {
+          "package_name": "net.simplifiedlabs.directreplynotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLPG7vGjtD5hiCAsEY6M8V6qwIpYgSJHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96472897739-kkafara1fvb06urq518jsbba8q3pkps5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "96472897739-mi4qc619d5nd7k48avs2r11gcritibpa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bbva.cellsApp.ENTERPRISE"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

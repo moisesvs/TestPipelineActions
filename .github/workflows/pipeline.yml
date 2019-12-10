@@ -5,15 +5,17 @@ on:
     branches:
     - master
     - release/*
-
 jobs:
   build:
 
     runs-on: ubuntu-latest
 
     steps:
-    - uses: techulus/push-github-action@v0.0.2
     - name: Send Push Notification
-      run: echo Notifications sent
+      uses: techulus/push-github-action@v0.0.2
+      env:
+        API_KEY: ${{ secrets.API_KEY }}
+        MESSAGE: "There is a new commit!"
+      run: echo Notifications sent      
         
 
