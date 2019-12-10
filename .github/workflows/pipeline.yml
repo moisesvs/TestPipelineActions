@@ -13,6 +13,7 @@ jobs:
     steps:
     - name: "Run test suite"
       uses: msfjarvis/setup-android@1.0
+      run: 
       with:
-        entrypoint: ./gradlew
-        args: dependencies spotlessApply detekt assembleDebug
+        entrypoint: ls
+        args: 
