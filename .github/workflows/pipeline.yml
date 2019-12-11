@@ -11,8 +11,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: "Run test suite"
-      uses: msfjarvis/setup-android@1.0
-      with:
-        entrypoint: ./gradlew
-        args: assembleDebug
+    - name: "Run LS Command"
+      working-directory: ./
+      run: ls -la
