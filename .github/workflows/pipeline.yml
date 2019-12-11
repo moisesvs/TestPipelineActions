@@ -12,6 +12,10 @@ jobs:
 
     steps:
     - name: "Run LS Command"
+      working-directory: "/github/workspace"
+      run: ls -la
+
+    - name: "Run LS Command"
       working-directory: ./
       run: ls -la
 
