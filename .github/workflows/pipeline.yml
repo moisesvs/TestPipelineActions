@@ -11,16 +11,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: "Run LS Command"
-      working-directory: "/github/workspace"
-      run: ls -la
+    - uses: actions/checkout@v1
+    - name: checkout submodule
+      run: git submodule sync --recursive && git submodule update --init --recursive
 
     - name: "Run LS Command"
       working-directory: ./
       run: ls -la
 
-    - name: "Run Build Android"
-      uses: msfjarvis/setup-android@1.0
+    - name: before build
+      uses: xdtianyu/actions-android-ci@master
       with:
-        entrypoint: ./gradlew
-        args: assembleDebug
+        args: '"source .travis/env.sh; touch local.properties"'
+
+    - name: build
+      uses: xdtianyu/actions-android-ci@master
+      with: 
+        args: '"source .travis/env.sh;source /opt/setup-android-sdk.sh;./gradlew assembleDebug"'
+
