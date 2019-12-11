@@ -24,9 +24,11 @@ jobs:
     - name: Build Debug APK
       run: ./gradlew assembleDebug
       
-    - name: Releasing using Hub
-      uses: ShaunLWM/action-release-debugapk@master
-      env:
-       GITHUB_TOKEN: "79cb4e5aca93e4f93218b6f542b7d3b53ef5eb3c"
-       APP_FOLDER: app
-       RELEASE_TITLE: New Build
+    - name: List artifact APK
+      run: la -la
+
+    - uses: actions/upload-artifact@v1
+      with:
+        name: app-debug.apk
+        path: ./app/build/outputs/apk/debug
+
