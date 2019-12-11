@@ -14,3 +14,9 @@ jobs:
     - name: "Run LS Command"
       working-directory: ./
       run: ls -la
+
+    - name: "Run Build Android"
+      uses: msfjarvis/setup-android@1.0
+      with:
+        entrypoint: ./gradlew
+        args: assembleDebug
